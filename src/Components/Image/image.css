@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(188, 192, 162);
+}
+.pics{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    /* gap: 10px; */
+}
+
+.pics img{
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    margin: 10px 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.pics img:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.pics video{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px 30px;
+}
+
+.pics audio{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 30px;
+}

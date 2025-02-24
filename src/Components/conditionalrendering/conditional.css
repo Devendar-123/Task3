@@ -1,0 +1,46 @@
+body{
+    background: black;
+    color: aqua;
+
+}
+
+header{
+    background-color: #394044;
+    height: 10vh;
+    align-content: center;
+    
+}
+
+.unorder{
+    list-style-type: none;
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.unorder li{
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 20px 10px 20px #f0f1ec;
+    
+}
+
+#one{
+    width: 10vw;
+    color: #394044;
+    background: yellowgreen;
+    padding: 5px;
+    border-radius: 8px;
+    transition: background 0.5s ease-in-out;
+}
+
+#one:hover{
+    cursor: pointer;
+    background: white;
+    transform: scale(1.1); 
+}
+

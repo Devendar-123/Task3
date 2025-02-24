@@ -1,0 +1,54 @@
+/* body{
+  background-color: black;
+  color: white;
+} */
+/* .grandchild .child{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* border: 2px solid orange; */
+  /* margin: 10px; */
+  /* padding: 10px; */
+/* } */
+
+/* p{
+  border: 2px solid orange;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+} */
+
+/* .h1{
+  text-align: center;
+  font-size: 900;
+  background-color: yellowgreen;
+  text-decoration: dotted underline;
+  font-style: italic;
+} */ 
+
+/* h1,p{
+  text-align: center;
+}
+
+button{
+  text-align: center;
+  margin-left: 600px;
+}
+
+input{
+  margin-left: 550px;
+  margin-top: 30px;
+} */
+
+#myDiv{
+  height: 100vh;
+}
+.light{
+  background-color: black;
+  color: white;
+}
+
+.dark{
+  background-color: white;
+  color: #000;
+}

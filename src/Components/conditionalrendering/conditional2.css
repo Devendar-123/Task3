@@ -1,0 +1,27 @@
+form{
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    top: 20vh;
+    left: 40vw;
+    right: 40vw;
+    bottom: 30vh;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 5px 10px rgba(252, 247, 247, 0.416);
+    border-radius: 10px;
+}
+
+button{
+    background: aquamarine;
+    margin-left: 3vw;
+    padding: 5px;
+    border-radius: 8px;
+    transition: background 0.5s ease-in-out;
+    /* width: 15vw; */
+}
+
+button:hover{
+    cursor: pointer;
+    background: white;
+    transform: scale(1.1);
+}

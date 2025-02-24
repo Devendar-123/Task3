@@ -1,0 +1,46 @@
+body{
+    background-color: #554d02;
+}
+
+.child{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    /* background-color: #a5a1a1; */
+    margin-top: 20px;
+}
+
+.child img{
+    width: 350px;
+    height: 350px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.child img:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+/* .video{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+} */
+
+.video video{
+    width: 40%;
+    margin-left: 50px;
+    padding: 30px 20px;
+}
+
+.audio{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+
